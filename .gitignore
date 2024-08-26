@@ -205,3 +205,15 @@ vehicles_env/share/jupyter/nbextensions/jupyterlab-plotly/index.js.LICENSE.txt
 vehicles_env/share/jupyter/nbextensions/pydeck/extensionRequires.js
 vehicles_env/share/jupyter/nbextensions/pydeck/index.js
 vehicles_env/share/jupyter/nbextensions/pydeck/index.js.map
+vehicles_env/Scripts/debugpy.exe
+vehicles_env/Scripts/ipython.exe
+vehicles_env/Scripts/ipython3.exe
+vehicles_env/Scripts/jupyter-kernel.exe
+vehicles_env/Scripts/jupyter-kernelspec.exe
+vehicles_env/Scripts/jupyter-run.exe
+vehicles_env/share/jupyter/kernels/python3/kernel.json
+vehicles_env/share/jupyter/kernels/python3/logo-32x32.png
+vehicles_env/share/jupyter/kernels/python3/logo-64x64.png
+vehicles_env/share/jupyter/kernels/python3/logo-svg.svg
+vehicles_env/share/man/man1/ipython.1
+.gitignore

@@ -5,17 +5,27 @@ import plotly_express as px
 car_data = pd.read_csv('./vehicles_us.csv')
 
 # Encabezado de la aplicacion con streamlit
-st.header('Encabezado inicial de la aplicacion')
+st.header('Datos de Vehiculos mostrados en Graficos (Histogramas - Dispersión)')
 
-# creando un boton para iniciar la ejecución
-histo_inicio = st.button('Mostrar histograma')
+seleccion_histograma = st.checkbox('Grafico Histograma')
+seleccion_dispersion = st.checkbox('Graficos Dispersión')
 
-if histo_inicio:
+if seleccion_histograma:
     st.write(
         'Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
 
     # crea un histograma
     fig = px.histogram(car_data, x='odometer',
-                       title='Histograma de precios de los vehículos')
+                       title='Cantidad de Vehiculos segun su odometro')
+
     # mostrar un grafico pltoly interactivo
+    st.plotly_chart(fig, use_container_width=True)
+
+if seleccion_dispersion:
+    st.write('Creación de un grafico de dispersión para el conjunto de datos de anuncios de venta de coches')
+
+    # grafico disperción
+    fig = px.scatter(car_data, x='odometer', y='price',
+                     title='Precio del vehiculo segun la distancia recorrida')
+
     st.plotly_chart(fig, use_container_width=True)

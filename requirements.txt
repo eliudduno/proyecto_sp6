@@ -3,4 +3,5 @@ scipy
 streamlit
 plotly==5.11.0
 plotly-express==0.4.1
+numpy==2.1.0
 

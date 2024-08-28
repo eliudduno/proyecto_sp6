@@ -3,7 +3,8 @@ scipy
 streamlit
 plotly==5.11.0
 plotly-express==0.4.1
-numpy==2.1.0
+numpy
+#numpy==2.1.0
 ##packaging==24.1
 ##parso==0.8.4
 ##patsy ==0.5.6

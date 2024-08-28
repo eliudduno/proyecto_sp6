@@ -1,3 +1,11 @@
 pandas
 scipy
+<<<<<<< HEAD
 streamlit
+=======
+streamlit
+plotly==5.11.0
+plotly-express==0.4.1
+numpy==2.1.0
+
+>>>>>>> 7bc37ac464819febb6b1a8e6e22aac9ecee7009d

@@ -1,8 +1,8 @@
 pandas
 scipy
 streamlit
-plotly==5.11.0
-plotly-express
+#plotly==5.11.0
+#plotly-express
 #plotly-express==0.4.1
 #numpy
 #numpy==2.1.0
